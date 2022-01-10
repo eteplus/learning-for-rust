@@ -4,4 +4,5 @@ use libs::*;
 fn main() {
     hello_cargo::run();
     car::run();
+    car2::run();
 }
