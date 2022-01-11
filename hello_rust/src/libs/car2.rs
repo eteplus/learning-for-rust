@@ -1,22 +1,22 @@
 // https://docs.microsoft.com/en-us/learn/modules/rust-if-else-expressions/3-exercise-data-types
 #[derive(PartialEq, Debug)]
 // Declare Car struct to describe vehicle with four named fields
-struct Car {
-    color: String,
-    motor: Transmission,
-    roof: bool,
-    age: (Age, u32),
+pub struct Car {
+    pub color: String,
+    pub motor: Transmission,
+    pub roof: bool,
+    pub age: (Age, u32),
 }
 
 #[derive(PartialEq, Debug)]
-enum Age {
+pub enum Age {
     New,
     Used,
 }
 
 #[derive(PartialEq, Debug)]
 // Declare enum for Car transmission type
-enum Transmission {
+pub enum Transmission {
     Manual,
     SemiAuto,
     Automatic,
@@ -26,7 +26,7 @@ enum Transmission {
 // - miles (u32)
 // Create a tuple for the car quality with the Age ("New" or "Used") and mileage
 // Return a tuple with the arrow `->` syntax
-fn car_quality(miles: u32) -> (Age, u32) {
+pub fn car_quality(miles: u32) -> (Age, u32) {
     // Declare and initialize the return tuple value
     // For a new car, set the miles to 0
     let quality: (Age, u32) = if miles == 0 {
@@ -58,6 +58,7 @@ fn car_factory(color: String, motor: Transmission, roof: bool, miles: u32) -> Ca
 }
 
 pub fn run() {
+    println!("\nCar2:");
     // Create car color array
     let colors = ["Blue", "Green", "Red", "Silver"];
 

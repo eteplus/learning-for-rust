@@ -27,6 +27,7 @@ fn car_factory(color: String, transmission: Transmission, convertible: bool) -> 
 }
 
 pub fn run () {
+    println!("\nCar:");
     // We have orders for three new cars!
     // We'll declare a mutable car variable and reuse it for all the cars
     let mut car = car_factory(String::from("Red"), Transmission::Manual, false);
