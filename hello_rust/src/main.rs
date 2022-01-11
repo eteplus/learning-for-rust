@@ -7,4 +7,7 @@ fn main() {
     car2::run();
     car3::run();
     car4::run();
+    fruit::run();
+    person::run();
+    file::run();
 }
