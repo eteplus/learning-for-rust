@@ -6,3 +6,4 @@ pub mod car4;
 pub mod fruit;
 pub mod person;
 pub mod file;
+pub mod lifetime;

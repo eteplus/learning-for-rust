@@ -10,4 +10,5 @@ fn main() {
     fruit::run();
     person::run();
     file::run();
+    lifetime::run();
 }
