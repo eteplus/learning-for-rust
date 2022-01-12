@@ -11,4 +11,6 @@ fn main() {
     person::run();
     file::run();
     lifetime::run();
+    trait1::run();
+    trait2::run();
 }

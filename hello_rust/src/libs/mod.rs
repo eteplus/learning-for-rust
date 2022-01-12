@@ -7,3 +7,5 @@ pub mod fruit;
 pub mod person;
 pub mod file;
 pub mod lifetime;
+pub mod trait1;
+pub mod trait2;
