@@ -9,3 +9,6 @@ pub mod file;
 pub mod lifetime;
 pub mod trait1;
 pub mod trait2;
+pub mod counter;
+pub mod container;
+pub mod groups;

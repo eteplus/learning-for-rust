@@ -13,4 +13,7 @@ fn main() {
     lifetime::run();
     trait1::run();
     trait2::run();
+    counter::run();
+    container::run();
+    groups::run();
 }
