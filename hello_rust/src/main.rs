@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+mod authentication;
 mod libs;
 use libs::*;
 
@@ -17,4 +18,7 @@ fn main() {
     // counter::run();
     // container::run();
     // groups::run();
+    // auth::run();
+    // regex1::run();
+    text_processing::run();
 }

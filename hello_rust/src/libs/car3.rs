@@ -1,4 +1,4 @@
-use crate::car2::{car_quality, Car, Transmission};
+use super::car2::{car_quality, Car, Transmission};
 use std::collections::HashMap;
 
 // Build "Car" using input arguments

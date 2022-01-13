@@ -12,3 +12,6 @@ pub mod trait2;
 pub mod counter;
 pub mod container;
 pub mod groups;
+pub mod auth;
+pub mod regex1;
+pub mod text_processing;
