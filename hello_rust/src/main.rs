@@ -5,6 +5,7 @@ use libs::*;
 
 fn main() {
     hello_cargo::run();
+    println!("2 + 3 = {}\n", basic_math::add(2, 3));
     // car::run();
     // car2::run();
     // car3::run();

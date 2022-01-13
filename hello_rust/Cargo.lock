@@ -12,9 +12,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "basic_math"
+version = "0.1.0"
+
+[[package]]
 name = "hello_rust"
 version = "0.1.0"
 dependencies = [
+ "basic_math",
  "regex",
 ]
 

@@ -17,6 +17,7 @@ fn build_full_name(person: &Person) -> String {
     full_name
 }
 
+#[test]
 pub fn run() {
     let john = Person {
         first: String::from("James"),

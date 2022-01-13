@@ -15,3 +15,4 @@ pub mod groups;
 pub mod auth;
 pub mod regex1;
 pub mod text_processing;
+pub mod test;
