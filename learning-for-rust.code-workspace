@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "journal"
+		},
+		{
+			"path": "exercism"
 		}
 	],
 	"settings": {}
