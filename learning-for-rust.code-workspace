@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "hello_rust"
+		},
+		{
+			"path": "rustlings"
+		},
+		{
+			"path": "journal"
+		}
+	],
+	"settings": {}
+}
